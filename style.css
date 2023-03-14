@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 400%;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #eca116, #cabb9f);
+
+}
+
+.profilbild{
+    flex-basis: 20%;
+    position: relative;
+    top: 4%;
+    left: 10%;
+    z-index: 2;
+}
+
+.profilbild img{
+    width: 100%;
+    height: auto; 
+    border-radius: 5%; 
+}
+
+@media screen and (min-width: 768px) {
+    .profilbild img {
+        max-width: 445px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .profilbild img {
+        max-width: 500px;
+    }
+}
+
+
+.nav-links{
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    top: 21%;
+    left: -2.5%;
+}
+
+.nav-links a {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    vertical-align: middle;
+    top: 100%;
+    left: 0%;
+}
+
+.nav-links img{
+    max-width: 100%;
+    height: auto;  
+}
+
+.nav-links a:first-child img{
+    width: 13%;
+    height: 10%;
+    margin-right: -60%;
+    
+}
+.nav-links a:last-child img{
+    width: 24%;
+    height: 10%;
+    margin-left: -60%;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-links img {
+        max-width: 445px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-links img {
+        max-width: 500px;
+    }
+}
+
+.shape{
+    width: 1000px;
+    height: 100vh;
+    border-radius: 50%;
+    /*background-color: white;*/
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+
+.name{
+    position: absolute;
+    /*margin-top: -70vh;
+    margin-right: 300px;*/
+    top: 2.5%;
+    left: 18%; 
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+p{
+    z-index: 2;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0%;
+    width: 0.8%;
+    height: 0%;
+    border-top: 50vh solid #fff;
+    border-right: 50vh solid transparent;
+    border-left: 50vh solid #fff;
+    border-bottom: 50vh solid #fff;
+
+}
+.shape2{
+    width: 1000px;
+    height: 100vh;
+    border-radius: 50%;
+    /*background-color: white;*/
+    position: absolute;
+    top: 100vh;
+    right: -40px;
+}
+
+.overlay2{
+    position: absolute;
+    top: 25%;
+    right: 0;
+    width: 0.8%;
+    height: 0%;
+    border-top: 50vh solid #fff;
+    border-right: 50vh solid #fff;
+    border-left: 50vh solid transparent;
+    border-bottom: 50vh solid #fff;
+
+}
+
+.UU{
+    flex-basis: 20%;
+    position: relative;
+    top: 18.2%;
+    left: 70%;
+    z-index: 2;
+}
+.UU img{
+    width: 100%;
+    height: auto;
+    /*width: 445px;
+    height: 202px;
+    border-radius: 30px;*/
+    
+}
+
+@media screen and (min-width: 768px) {
+    .UU img {
+        max-width: 445px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .UU img {
+        max-width: 500px;
+    }
+}
+
+.shape3{
+    width: 1000px;
+    height: 200vh;
+    border-radius: 50%;
+    /*background-color: white;*/
+    position: absolute;
+    top: 200vh;
+    left: -40px;
+}
+.overlay3{
+    position: absolute;
+    top: 50%;
+    width: 0.8%;
+    height: 0%;
+    border-top: 50vh solid #fff;
+    border-right: 50vh solid transparent;
+    border-left: 50vh solid #fff;
+    border-bottom: 50vh solid #fff;
+
+}
+
+.git{
+    flex-basis: 20%;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    top: 33%;
+    left: -33%;
+}
+
+.git img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .git img {
+        max-width: 445px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .git img {
+        max-width: 500px;
+    }
+}
+
+.shape4{
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    /*background-color: white;*/
+    position: absolute;
+    top: 75%;
+    right: -40px;
+}
+
+.overlay4{
+    position: absolute;
+    top: 75%;
+    right: 0;
+    width: 0.8%;
+    height: 0%;
+    border-top: 50vh solid #fff;
+    border-right: 50vh solid #fff;
+    border-left: 50vh solid transparent;
+    border-bottom: 50vh solid #fff;
+
+}
+
+.work{
+    flex-basis: 20%;
+    position: relative;
+    top: 44%;
+    left: 65%;
+    z-index: 2;
+}
+.work img{
+    width: 100%;
+    height: auto;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .work img {
+        max-width: 445px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .work img {
+        max-width: 500px;
+    }
+}
+
+.text {
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+  
+.text h1{
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+}
+  
+#text1 {
+    top: 50vh;
+    width: 150%;
+    left: 0;
+}
+  
+#text2 {
+    top: 150vh;
+    width: 150%;
+    right: 0;
+}
+  
+#text3 {
+    top: 250vh;
+    width: 150%;
+    left: 0;
+}
+  
+#text4 {
+    top: 350vh;
+    width: 150%;
+    right: 0;
+}

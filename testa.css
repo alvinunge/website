@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .profilbild img, .nav-links img {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .profilbild {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+  }
+  
+  .nav-links {
+    position: sticky;
+    top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    display: block;
+  }
+  
+  .nav-links img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .nav-links a:first-child img {
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+  }
+  
+  .nav-links a:last-child img {
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+  }
+  
+  .name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+  }
